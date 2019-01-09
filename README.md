@@ -3,7 +3,7 @@
 
 ## Lab 12 Express Server
 
-### Author: Jacob Anderson, Tanner Seramur, Fletcher LaRue, and Ryan Gallaway
+### Author: Jacob Anderson, Tanner Seramur, Fletcher LaRue, Michael George, and Ryan Gallaway
 
 ### Links and Resources
 * [repo](https://github.com/TannerSeramur/12-express)
