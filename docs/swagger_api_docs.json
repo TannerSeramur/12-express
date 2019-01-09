@@ -1,0 +1,131 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is an api for retrieving posts. Each post has data about people.",
+    "version": "1.0.0",
+    "title": "Post api",
+    "termsOfService": "MIT License",
+    "contact": {
+      "email": ""
+    },
+    "license": {
+      "name": "MIT LICENSE",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "host": "localhost:8080",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "posts",
+      "description": "All category requests"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/posts": {
+      "get": {
+        "tags": [
+          "posts"
+        ],
+        "summary": "Get the posts",
+        "description": "",
+        "consumes": [
+          "application/json",
+          "application/xml"
+        ],
+        "produces": [
+          "application/xml",
+          "application/json"
+        ],
+        "responses": {
+          "405": {
+            "description": "Invalid input"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "posts"
+        ],
+        "summary": "Add posts",
+        "description": "",
+        "consumes": [
+          "application/json",
+          "application/xml"
+        ],
+        "produces": [
+          "application/xml",
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Add a category",
+            "required": true,
+            "schema": {}
+          }
+        ],
+        "responses": {
+          "405": {
+            "description": "Invalid input"
+          }
+        }
+      }
+    },
+    "/posts/:id/": {
+      "put": {
+        "tags": [
+          "posts"
+        ],
+        "summary": "Update a post",
+        "description": "",
+        "consumes": [
+          "application/json",
+          "application/xml"
+        ],
+        "produces": [
+          "application/xml",
+          "application/json"
+        ],
+        "responses": {
+          "405": {
+            "description": "Invalid input"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "posts"
+        ],
+        "summary": "Delete a post",
+        "description": "",
+        "consumes": [
+          "application/json",
+          "application/xml"
+        ],
+        "produces": [
+          "application/xml",
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Add a category",
+            "required": true,
+            "schema": {}
+          }
+        ],
+        "responses": {
+          "405": {
+            "description": "Invalid input"
+          }
+        }
+      }
+    }
+  }
+}
