@@ -7,7 +7,7 @@
 
 ### Links and Resources
 * [repo](https://github.com/TannerSeramur/12-express)
-* [travis](http://xyz.com)
+* [travis](https://www.travis-ci.com/TannerSeramur/12-express)
 * [heroku](https://lab12-express-rg-ts-ja-fl.herokuapp.com)
 
 ### Modules
